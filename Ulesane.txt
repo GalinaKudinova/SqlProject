@@ -1,4 +1,4 @@
-
+﻿
 Расположи фразы в нужном порядке.
  
 GROUP BY continent
@@ -7,3 +7,10 @@ SELECT continent, COUNT(*)
 FROM Country
 HAVING continent
 
+
+
+SELECT continent, COUNT(*)
+FROM Country
+Where continent LIKE "Europe"
+GROUP BY continent
+HAVING continent

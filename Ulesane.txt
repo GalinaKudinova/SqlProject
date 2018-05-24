@@ -1,1 +1,9 @@
 
+Расположи фразы в нужном порядке.
+ 
+GROUP BY continent
+LIKE "Europe"
+SELECT continent, COUNT(*)
+FROM Country
+HAVING continent
+
